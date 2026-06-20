@@ -1,0 +1,110 @@
+# ---- raw / large data: NEVER commit ----
+*.RData
+*.rds
+*.h5ad
+*.h5
+*.loom
+*.mtx
+data/
+geo_data/
+tables/
+results/*.RData
+results/0*_*.RData
+results/GSE*_processed.RData
+results/pseudobulk_fullgene.rds
+results/ai/          # intermediate cell-level matrices (counts.mtx, cells.csv) — do not share
+
+# results are generated outputs; do not publish intermediate or derived result tables by default
+results/*
+
+# ---- ADNI is controlled-access: never commit anything ADNI ----
+*ADNI*raw*
+*adni*download*
+
+# ---- manuscript binaries / drafts (optional to exclude) ----
+*.docx
+~$*
+
+# ---- two physical staging directories: nothing inside should be pushed ----
+_private/
+_upload_ready/
+
+# ---- internal planning / strategy / review notes — NEVER upload ----
+plan&pipeline/
+plan_*/
+*_plan.md
+data-downlaod.R
+step*.log
+44056
+
+# ---- Claude Code internal session notes — NEVER upload ----
+AGENTS.md
+CLAUDE.md
+CLAUDE_CODE_CONTEXT.md
+PIPELINE_AI.md
+PROJECT_AUDIT.md
+COVER_LETTER_AND_STRATEGY.md
+
+# ---- submission materials (cover letter, guides) — keep private ----
+Paper1_CoverLetter_*.md
+SUBMISSION_Zenodo_GitHub_Guide.md
+
+# ---- draft manuscript (only FINAL goes in repo, not Draft) ----
+Paper1_Manuscript_Draft.md
+
+# manuscript source still has submission placeholders; add it after v8 is finalized
+Paper1_Manuscript_FINAL.md
+
+# ---- top-level duplicates (moved into docs/) ----
+/VERIFICATION_LOG.md
+/SUPPLEMENTARY_ANALYSES.md
+/Paper1_Supplementary_Materials.md
+/FIGURE_MANIFEST.md
+/PIPELINE.md
+/SINGLE_CELL_PIPELINE.md
+
+# keep the detailed verification notebook private; public repo should expose final methods, not the work log
+docs/VERIFICATION_LOG.md
+
+# ---- exploratory AI modules not used in the verified v7 manuscript ----
+script/ai/Step18_controllability.py
+script/ai/Step19_perturbation.py
+script/ai/Step21_virtualKO.R
+figures/pub/ai/control_network.png
+figures/pub/ai/perturbation_reversal.png
+figures/pub/ai/virtualKO_enrichment.png
+
+# ---- historical/superseded scripts kept locally but not shipped in the clean public package ----
+script/Paper1_R_Load_Data.R
+script/Paper1_R_Pipeline.R
+script/Paper1_Python_Pipeline.py
+script/Paper1_Step5_Figures_Tables.R
+script/Paper1_Step11_Figures.R
+script/Paper1_Step12_scRNA_figures.R
+script/Paper1_Step14_scRNA_featureplots.R
+script/Paper1_Step14b_markers.R
+script/Paper1_Step15_composites.R
+script/Paper1_Step16_scRNA_allfigs.R
+script/Paper1_Step29_composite_figures.py
+script/Paper1_Step33_deconv_figure.py
+
+# ---- OS / editor / language cruft ----
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+*.log
+
+# ---- figures: share only the publication-ready figure directory ----
+figures/*
+!figures/pub/
+!figures/pub/**
+figures/pub/.DS_Store
+figures/pub/**/.DS_Store
+figures/pub/ai/control_network.png
+figures/pub/ai/perturbation_reversal.png
+figures/pub/ai/virtualKO_enrichment.png

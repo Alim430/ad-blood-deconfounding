@@ -1,0 +1,18 @@
+# Python dependencies for the AD blood-RNA de-confounding audit
+# Install with:  pip install -r requirements.txt
+# (tested on Python 3.9–3.11)
+
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+matplotlib>=3.6
+statsmodels>=0.13
+shap>=0.43
+Pillow>=9.0
+python-docx>=0.8.11
+
+# Single-cell (Step7/Step22/scVI-related); install if rerunning single-cell steps
+scanpy>=1.9
+anndata>=0.9
+scvi-tools>=1.0

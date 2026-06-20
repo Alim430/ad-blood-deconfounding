@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "Peripheral blood molecular signatures of Alzheimer's disease are predominantly explained by myeloid leukocyte composition: a multi-modal de-confounding audit (analysis code)"
+authors:
+  - family-names: "Tudiyusufu"
+    given-names: "Alimujiang"
+    affiliation: "Independent Researcher"
+license: MIT
+repository-code: "https://github.com/Alim430/ad-blood-deconfounding"
+version: "1.0.0"
+date-released: "2026-06-19"
+keywords:
+  - Alzheimer's disease
+  - blood transcriptomics
+  - cell-type deconvolution
+  - confounding
+  - pseudoreplication
+  - reproducibility
