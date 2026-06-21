@@ -3,7 +3,7 @@
 Analysis code and reproducibility materials for the manuscript:
 
 > **Blood gene-expression biomarkers of Alzheimer's disease mainly reflect immune-cell composition, not disease-specific gene activity: a multi-modal audit.**
-> Alimujiang Tudiyusufu. Unfunded; no competing interests. Contact: Alim_T@foxmail.com
+> Alimujiang Tudiyusufu.  Contact: Alim_T@foxmail.com
 
 A multi-modal audit (bulk transcriptomics, single-cell RNA-seq, a deep generative
 embedding, and the single-cell TCR repertoire; ~1,350 participants) testing whether the
