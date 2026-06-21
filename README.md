@@ -2,8 +2,8 @@
 
 Analysis code and reproducibility materials for the manuscript:
 
-> **Peripheral blood molecular signatures of Alzheimer's disease are predominantly explained by myeloid leukocyte composition: a multi-modal de-confounding audit.**
-> Alimujiang Tudiyusufu (Independent Researcher). Unfunded; no competing interests.
+> **Blood gene-expression biomarkers of Alzheimer's disease mainly reflect immune-cell composition, not disease-specific gene activity: a multi-modal audit.**
+> Alimujiang Tudiyusufu. Unfunded; no competing interests. Contact: Alim_T@foxmail.com
 
 A multi-modal audit (bulk transcriptomics, single-cell RNA-seq, a deep generative
 embedding, and the single-cell TCR repertoire; ~1,350 participants) testing whether the

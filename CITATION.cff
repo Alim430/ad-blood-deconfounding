@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated manuscript."
-title: "Peripheral blood molecular signatures of Alzheimer's disease are predominantly explained by myeloid leukocyte composition: a multi-modal de-confounding audit (analysis code)"
+title: "Blood gene-expression biomarkers of Alzheimer's disease mainly reflect immune-cell composition, not disease-specific gene activity: a multi-modal audit (analysis code)"
 authors:
   - family-names: "Tudiyusufu"
     given-names: "Alimujiang"
-    affiliation: "Independent Researcher"
+    email: "Alim_T@foxmail.com"
+    orcid: "https://orcid.org/0009-0002-5180-6226"
 license: MIT
 repository-code: "https://github.com/Alim430/ad-blood-deconfounding"
 version: "1.0.0"
@@ -16,3 +17,7 @@ keywords:
   - confounding
   - pseudoreplication
   - reproducibility
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20780486"
+    description: "Zenodo archive of the analysis code"

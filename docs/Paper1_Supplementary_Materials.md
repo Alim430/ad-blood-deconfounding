@@ -1,6 +1,6 @@
 # Supplementary Materials
 
-**Peripheral blood molecular signatures of Alzheimer's disease are predominantly explained by myeloid leukocyte composition: a multi-modal de-confounding audit**
+**Blood gene-expression biomarkers of Alzheimer's disease mainly reflect immune-cell composition, not disease-specific gene activity: a multi-modal audit**
 
 Contents: Supplementary Methods · Supplementary Note (robustness analyses S1–S20) · Supplementary Table S1 · Supplementary Figure S1.
 
