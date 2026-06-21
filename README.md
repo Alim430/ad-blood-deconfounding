@@ -1,4 +1,4 @@
-# Peripheral blood RNA in Alzheimer's disease is predominantly myeloid composition
+# Blood gene-expression biomarkers of Alzheimer's disease mainly reflect immune-cell composition
 
 Analysis code and reproducibility materials for the manuscript:
 
@@ -47,7 +47,7 @@ derived result tables, and large intermediate `.RData`/`.rds` files are **exclud
 the result tables locally.
 
 ## Citation
-See [`CITATION.cff`](CITATION.cff). A Zenodo DOI should be added after the first GitHub release is archived.
+See [`CITATION.cff`](CITATION.cff). Zenodo archive: [10.5281/zenodo.20780486](https://zenodo.org/records/20780486).
 
 ## License
 MIT — see [`LICENSE`](LICENSE).
