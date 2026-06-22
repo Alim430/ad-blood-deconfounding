@@ -15,3 +15,13 @@ data.table             1.18.4
 
 # Note: single-cell steps (Seurat v5, scVI) were run in a separate GPU environment;
 # Seurat/sva not present in this session. See Methods for single-cell tool versions.
+
+# Additional R packages used across pipeline (install via CRAN / BiocManager):
+glmnet                 5.0
+pROC                   1.19.0.1
+ggplot2                4.0.3
+caret                  available via Bioconductor/CRAN
+randomForest           available via Bioconductor/CRAN
+BiocManager            1.30.27
+GEOquery               2.80.0
+WGCNA                  available via Bioconductor/CRAN
